@@ -1,0 +1,32 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "This project converts from one currency to another using Freecurrencyconverterapi",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src --experimental --source-maps-inline -d ./dist",
+    "start": "nodemon ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-Ugwueze/Currency-Converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victor-Ugwueze/Currency-Converter/issues"
+  },
+  "homepage": "https://github.com/Victor-Ugwueze/Currency-Converter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^1.17.5",
+    "webpack": "^4.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
